@@ -8,8 +8,8 @@ mkdir . venvs
 .\.venvs\lpthw\Scripts\activate
 pip install nose
 
-$ mkdir p r o j e c t s
-$ cd p r o j e c t s /
+$ mkdir projects
+$ cd projects/
 $ mkdir skeleton
 $ cd skeleton
 $ mkdir bin NAME tests docs
