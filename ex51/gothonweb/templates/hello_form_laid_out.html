@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fill Out This Form</title>
+    </head>
+    <body>
+    {% extends "layout.html" %}
+    {% block content %}
+
+    <form action="/hello" method="POST">
+        A Greeting: <input type="text" name="greet">
+        <br/>
+        Your Name: <input type="text" name="name">
+        <br/>
+        <input type="submit">
+    </form>
+    {% endblock %}
+
+    </body>
+</html>
